@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nameste Hyderabad</title>
+    <!--CSS for the Register form and this WebPage-->
+    <style>
+        /* Cuz this is a Borderd Form  uwu*/
+          
+               html,body {
+                width: 100%;
+
+               }
+        
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input [type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            font-family: sans-serif;
+            background-color: #04AA6D;
+            color: #ffffff;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        /*For the Cancel button*/
+        .cancelbtn {
+            width: auto;
+            padding: auto;
+            background-color: #f44336;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        @media screen and (max-width:300px)  {
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+    </style>
+    <!--CSS is finally over...-->
+</head>
+
+
+<body>
+<h1 style="text-align: center; color: goldenrod;">Nameste Hyderbad</h1>
+
+<a href="Untitled-3.html">About Us</a>
+<a href="menu.html">Our Menu </a>
+<a href="Review Us.html">Review Us</a>
+<a href="Untitled-5.html">Location</a>
+<div class="container">
+
+    <!--This is the Register page-->
+    <form action="https://formsubmit.co/batta.nagaparvatheesam@gmail" method="POST">
+<div class="imgcontainer">
+<input type="image" class="avatar">
+</div>
+
+<div class="container">
+    <label for="uname" style="font-family: sans-serif; color: goldenrod;"><b>Username</b></label>
+    <br>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+    <label for="psw" style="font-family: sans-serif; color: goldenrod;"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label>
+        <input type="checkbox" checked="checked" name="remember">
+Remember Me
+    </label>
+</div>
+<!--After the Front-End User's Registering is over, I will get an Email of the details of the Front-End User-->
+
+<div class="container" style="background-color: #f1f1f1;">
+<button type="button" class="cancelbtn">Cancel</button>
+ <button type="submit" class="submitbtn">Submit</button>
+</div>
+    </form>
+<div>
+    <address>
+     Building <br>
+     : Al Showaib <br>
+     Flat : 401 <br>
+     Flat : 1 <br>
+     Flat 2 <br>
+    </address>
+</div>
+
+    <script>
+        function sendEmail() {
+
+        }
+    </script>
+</body>
+</html>
